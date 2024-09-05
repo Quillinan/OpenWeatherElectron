@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { useCityInfo } from "../context/CityInfoContext";
 import { getWeather } from "../services/getWeather";
 import { getForecast } from "../services/getForecast";
+import lupeIcon from "@resources/lupeIcon.svg";
 
 interface CitySearchBarProps {
   onCityChange: (city: string) => void;
@@ -49,7 +50,7 @@ const CitySearchBar: React.FC<CitySearchBarProps> = ({ onCityChange }) => {
     <StyledLabel>
       <img
         className="lupe"
-        src="/lupeIcon.svg"
+        src={lupeIcon}
         alt="Lupa"
         onClick={handleSearchClick}
       />

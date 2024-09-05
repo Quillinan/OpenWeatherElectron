@@ -1,6 +1,6 @@
-# electron-app
+# Open Weather Electron
 
-An Electron application with React and TypeScript
+An Electron application of the original Open Weather app, now packaged with Vite, React, and TypeScript for cross-platform desktop usage.
 
 ## Recommended IDE Setup
 

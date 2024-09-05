@@ -6,6 +6,7 @@ import { useCityInfo } from "../context/CityInfoContext";
 import { FaCircle } from "react-icons/fa6";
 import { convertCtoF, useFahrenheit } from "../context/FahrenheitContext";
 import { useDarkMode } from "../context/DarkModeContext";
+import casaco from "@resources/casaco.svg";
 
 interface PanelProps {}
 
@@ -100,7 +101,7 @@ const Panel: React.FC<PanelProps> = () => {
   return (
     <StyledPanel>
       <TitleLabel>
-        <img src="/casaco.svg" alt="Casaco" />
+        <img src={casaco} alt="Casaco" />
         <h1>Leva um casaquinho?</h1>
       </TitleLabel>
 
