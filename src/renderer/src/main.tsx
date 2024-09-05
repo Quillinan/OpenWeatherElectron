@@ -5,7 +5,7 @@ import { CityInfoProvider } from "./context/CityInfoContext";
 import { FahrenheitProvider } from "./context/FahrenheitContext";
 import { DarkModeProvider } from "./context/DarkModeContext";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <DarkModeProvider>
       <CityInfoProvider>
