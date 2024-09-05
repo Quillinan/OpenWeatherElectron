@@ -27,7 +27,7 @@ export const FahrenheitProvider: React.FC<{ children: React.ReactNode }> = ({
   );
 };
 
-export const useFahrenheit = (): FahrenheitContextType => {
+export const useFahrenheit = () => {
   const context = useContext(FahrenheitContext);
   if (!context) {
     throw new Error("useFahrenheit must be used within a FahrenheitProvider");

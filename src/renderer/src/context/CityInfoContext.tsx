@@ -48,7 +48,7 @@ interface CityDetails {
 }
 
 interface WeatherItem {
-  clouds: object;
+  clouds: {};
   dt: number;
   dt_txt: Date;
   main: {
@@ -59,11 +59,11 @@ interface WeatherItem {
     pressure: number;
   };
   pop: number;
-  rain: object;
+  rain: {};
   sys: { pod: string };
   visibility: number;
   weather: [];
-  wind: object;
+  wind: {};
 }
 
 export interface GraphicInfo {
@@ -82,7 +82,7 @@ interface CityInfoContextType {
 }
 
 const CityInfoContext = createContext<CityInfoContextType | undefined>(
-  undefined,
+  undefined
 );
 
 export const CityInfoProvider: React.FC<{ children: React.ReactNode }> = ({
@@ -93,14 +93,13 @@ export const CityInfoProvider: React.FC<{ children: React.ReactNode }> = ({
 
   return (
     <CityInfoContext.Provider
-      value={{ cityInfo, setCityInfo, graphicInfo, setGraphicInfo }}
-    >
+      value={{ cityInfo, setCityInfo, graphicInfo, setGraphicInfo }}>
       {children}
     </CityInfoContext.Provider>
   );
 };
 
-export const useCityInfo = (): CityInfoContextType => {
+export const useCityInfo = () => {
   const context = useContext(CityInfoContext);
   if (!context) {
     throw new Error("useCityInfo must be used within a CityInfoProvider");

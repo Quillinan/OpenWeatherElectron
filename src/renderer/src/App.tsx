@@ -3,7 +3,7 @@ import GlobalStyle from "./styles/GlobalStyle";
 import TodayPage from "./pages/TodayPage";
 import ResetStyle from "./styles/ResetStyle";
 
-export default function App(): JSX.Element {
+export default function App() {
   return (
     <>
       <ResetStyle />

@@ -11,7 +11,7 @@ import {
 import { useCityInfo } from "../context/CityInfoContext";
 import { convertCtoF, useFahrenheit } from "../context/FahrenheitContext";
 
-type GraphicInfoProps = object;
+interface GraphicInfoProps {}
 
 const GraphicInfo: React.FC<GraphicInfoProps> = () => {
   const { graphicInfo } = useCityInfo();
@@ -47,7 +47,7 @@ const GraphicInfo: React.FC<GraphicInfoProps> = () => {
   });
 
   useEffect(() => {
-    const handleResize = (): void => {
+    const handleResize = () => {
       if (window.matchMedia("(max-width: 600px)").matches) {
         setFontSizeTooltip(["3vw", "3.3vw"]);
         setFontSizeAxis("4vw");
@@ -65,7 +65,7 @@ const GraphicInfo: React.FC<GraphicInfoProps> = () => {
 
     window.addEventListener("resize", handleResize);
 
-    return (): void => {
+    return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);

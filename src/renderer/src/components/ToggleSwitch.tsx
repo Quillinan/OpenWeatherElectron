@@ -9,7 +9,7 @@ interface ToggleLineProps {
 const ToggleSwitch: React.FC<ToggleLineProps> = ({ label, onToggle }) => {
   const [isChecked, setIsChecked] = useState(false);
 
-  const handleToggle = (): void => {
+  const handleToggle = () => {
     setIsChecked(!isChecked);
     onToggle();
   };

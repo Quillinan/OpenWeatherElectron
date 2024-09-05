@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { useCityInfo } from "../context/CityInfoContext";
 import { convertCtoF, useFahrenheit } from "../context/FahrenheitContext";
 
-type TodayInfosProps = object;
+interface TodayInfosProps {}
 
 const TodayInfos: React.FC<TodayInfosProps> = () => {
   const { cityInfo } = useCityInfo();
