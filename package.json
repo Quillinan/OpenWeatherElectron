@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "An Electron application with React and TypeScript",
   "main": "./out/main/index.js",
-  "author": "example.com",
+  "author": "Milton Quillinan",
+  "license": "ISC",
   "homepage": "https://electron-vite.org",
+  "bugs": {
+    "url": "https://github.com/Quillinan/OpenWeatherElectron/issues"
+  },
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
@@ -26,7 +30,7 @@
     "axios": "^1.6.2",
     "recharts": "^2.10.1",
     "styled-components": "^6.1.1",
-    "sweetalert2": "^11.6.13"
+    "sweetalert2": "^11.13.2"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config-prettier": "^2.0.0",
