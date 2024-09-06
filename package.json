@@ -4,7 +4,7 @@
   "description": "An Electron application with React and TypeScript",
   "main": "./out/main/index.js",
   "author": "Milton Quillinan",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://electron-vite.org",
   "bugs": {
     "url": "https://github.com/Quillinan/OpenWeatherElectron/issues"
