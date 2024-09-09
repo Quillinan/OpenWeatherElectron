@@ -6,7 +6,7 @@ import { useCityInfo } from "../context/CityInfoContext";
 import { FaCircle } from "react-icons/fa6";
 import { convertCtoF, useFahrenheit } from "../context/FahrenheitContext";
 import { useDarkMode } from "../context/DarkModeContext";
-import casaco from "@resources/casaco.svg";
+import casaco from "@renderer/assets/casaco.svg";
 
 interface PanelProps {}
 

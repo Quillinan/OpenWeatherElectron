@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useCityInfo } from "../context/CityInfoContext";
 import { getWeather } from "../services/getWeather";
 import { getForecast } from "../services/getForecast";
-import lupeIcon from "@resources/lupeIcon.svg";
+import lupeIcon from "@renderer/assets/lupeIcon.svg";
 
 interface CitySearchBarProps {
   onCityChange: (city: string) => void;
