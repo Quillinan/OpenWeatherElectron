@@ -2,9 +2,12 @@
 
 An Electron application of the original Open Weather app, now packaged with Vite, React, and TypeScript for cross-platform desktop usage.
 
-## Recommended IDE Setup
+[Open Weather doc](https://github.com/Quillinan/OpenWeather?tab=readme-ov-file#readme)
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## Prerequisites
+
+- Node.js v14+
+- Yarn v1.22+
 
 ## Project Setup
 
