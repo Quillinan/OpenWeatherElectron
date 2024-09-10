@@ -2,6 +2,8 @@ appId: com.electron.app
 productName: Open Weather
 directories:
   buildResources: build
+  output: openweather1.0
+
 files:
   - "!**/.vscode/*"
   - "!src/*"
