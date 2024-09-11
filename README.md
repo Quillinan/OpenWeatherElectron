@@ -9,6 +9,21 @@ An Electron application of the original Open Weather app, now packaged with Vite
 - Node.js v14+
 - Yarn v1.22+
 
+### Arquivo .env
+
+- Clone o `.env.example`
+- Renomeie a cópia como `.env`
+- Configure `.env`
+  <details>
+    <summary> Insira a sua chave da API OpenWeather </summary>
+    
+    - Seguindo os padrões do documento original, preencha de acordo com o exemplo abaixo:
+    
+      ```js
+      VITE_API_KEY=suaChave
+      ```
+  </details>
+
 ## Project Setup
 
 ### Install
