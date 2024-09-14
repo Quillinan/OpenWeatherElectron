@@ -1,8 +1,8 @@
-appId: com.electron.app
+appId: com.openweather.app
 productName: Open Weather
 directories:
   buildResources: build
-  output: openweather1.0
+  output: OpenWeather 1.0
 
 files:
   - "!**/.vscode/*"
@@ -14,8 +14,8 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: OpenWeather
-  icon: resources/sun.ico
+  executableName: Juri
+  icon: resources/icon.ico
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}

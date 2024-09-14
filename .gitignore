@@ -4,6 +4,6 @@ build
 out
 .DS_Store
 *.log*
-openweather*
+OpenWeather*
 .env*
 !.env.example
